@@ -30,25 +30,25 @@ export default function AddUser() {
     <div className="container">
         <div className="row">
             <div className="col-md-6 offset-md-3 border rounded p-4 mt-2  shadow">
-                <h2 className="text-center m-4">Register User</h2>
+                <h1 className="text-center m-4">Register User</h1>
                 <form onSubmit={(e) => onSubmit(e)}>
                 <div className="mb-3">
                     <label htmlFor="Name" className="form-label">
-                    Name
+                    <h3>Name</h3>
                     </label>
                     <input type={"text"} className="form-control" placeholder="Entry your name" name="name" value={name} onChange={(e)=>onInputChange(e)}/>
                     
                 </div>
                 <div className="mb-3">
                     <label htmlFor="Username" className="form-label">
-                    Username
+                    <h3>Username</h3>
                     </label>
                     <input type={"text"} className="form-control" placeholder="Entry your username" name="username" value={username} onChange={(e)=>onInputChange(e)}/>
                     
                 </div>
                 <div className="mb-3">
                     <label htmlFor="Email" className="form-label">
-                    Email
+                    <h3>Email</h3>
                     </label>
                     <input type={"text"} className="form-control" placeholder="Entry your email adress" name="email" value={email} onChange={(e)=>onInputChange(e)}/>
                     
